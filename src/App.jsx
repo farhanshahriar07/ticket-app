@@ -15,7 +15,7 @@ const CONCERTS = [
     time: "20:00", 
     venue: "Starlight Arena, NY", 
     price: 1500, 
-    image: "https://images.unsplash.com/photo-1540039155733-56f1cea2ac6f?auto=format&fit=crop&w=800&q=80", 
+    image: "https://images.unsplash.com/photo-1522158637959-30385a09e0da?auto=format&fit=crop&w=800&q=80", 
     available: 120,
     description: "Experience the mesmerizing synth-pop sounds of The Midnight Echo live. Their Neon Nights Tour brings an immersive visual and auditory experience you won't forget."
   },
