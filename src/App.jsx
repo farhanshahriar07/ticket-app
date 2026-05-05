@@ -495,19 +495,19 @@ const TicketsContent = ({ tickets, isDarkMode, mutedText }) => {
 };
 
 const Footer = ({ isDarkMode }) => (
-  <footer className={`py-6 border-t transition-colors duration-300 ${isDarkMode ? 'bg-gray-900 border-gray-800 text-gray-500' : 'bg-white border-gray-200 text-gray-400'}`}>
-    <div className="max-w-[1400px] mx-auto px-4 sm:px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
-      <div className="flex items-center gap-2">
-        <Music size={18} className="text-indigo-500" />
-        <span className={`text-lg font-black tracking-tighter ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>VibeTickets</span>
-        <span className="hidden sm:inline text-[10px] uppercase font-bold tracking-widest ml-4">© {new Date().getFullYear()}</span>
+  <footer className={`py-12 border-t transition-colors duration-300 ${isDarkMode ? 'bg-gray-900 border-gray-800 text-gray-500' : 'bg-white border-gray-200 text-gray-400'}`}>
+    <div className="max-w-6xl mx-auto px-4 text-center">
+      <div className="flex items-center justify-center gap-2 mb-4">
+        <Music size={24} className="text-indigo-500" />
+        <span className={`text-xl font-black tracking-tighter ${isDarkMode ? 'text-white' : 'text-gray-900'}`}>VibeTickets</span>
       </div>
-      
-      <div className="flex items-center gap-6 text-[10px] font-bold uppercase tracking-widest">
+      <p className="text-sm max-w-md mx-auto mb-6">Your destination for live music experiences. Secure, fast, and easy ticket booking across Bangladesh.</p>
+      <div className="flex justify-center gap-6 text-xs font-bold uppercase tracking-widest mb-8">
         <a href="#" className="hover:text-indigo-500 transition-colors">Privacy</a>
         <a href="#" className="hover:text-indigo-500 transition-colors">Terms</a>
         <a href="#" className="hover:text-indigo-500 transition-colors">Help</a>
       </div>
+      <p className="text-[10px] uppercase font-bold tracking-[0.2em]">© {new Date().getFullYear()} VibeTickets - Built with Love</p>
     </div>
   </footer>
 );
